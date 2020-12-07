@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+
 
 namespace _13.HashTable
 {
@@ -6,7 +8,7 @@ namespace _13.HashTable
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
 
 
             //Hash Table - > Hash Map !!!! is adata structure ! that implemetns associative array 
@@ -25,6 +27,35 @@ namespace _13.HashTable
             // for a small number of entiteies are not effective
             //a dictionary is implementation of hash Table
             // Hash Map = Hash Table
+            // every hash Table-stroes a data into key-value combination, 
+            //every key is unique , but values can repeat, 
+            // here we have an index -that is key -to this key correcsponts a value
+
+            var map = new Dictionary<string, string>(); //We define a new object type dictinary
+            map.Add("cat", "orange");  // we add some keys and values
+            map.Add("dog", "brown");
+
+            // Loop over teh Map
+
+            //foreach (var pair in map)
+            //{
+            //    string key = pair.Key;
+            //    string value = pair.Value;
+            //    Console.WriteLine(key + " " + value);   //printint the key -> value  pair
+            //}
+
+            // .. get the value of the known key 
+            //string result = map["cat"];
+            // Console.WriteLine(result);
+
+            string mapValue;  //creating a variable 
+
+            if (map.TryGetValue("d", out mapValue)) // gets the value of the key and getsi to variable mapValue
+            {
+                Console.WriteLine(mapValue); //printing the value corresponding to the key
+            }
+            Console.WriteLine(map["d"]);
+
         }
     }
 }

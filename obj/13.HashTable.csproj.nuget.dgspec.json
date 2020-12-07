@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bla\\source\\repos\\01.DataStructures\\13.HashTable\\13.HashTable.csproj": {}
+    "D:\\QA__\\GitProjects\\HashTableHashMap\\13.HashTable.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bla\\source\\repos\\01.DataStructures\\13.HashTable\\13.HashTable.csproj": {
+    "D:\\QA__\\GitProjects\\HashTableHashMap\\13.HashTable.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bla\\source\\repos\\01.DataStructures\\13.HashTable\\13.HashTable.csproj",
+        "projectUniqueName": "D:\\QA__\\GitProjects\\HashTableHashMap\\13.HashTable.csproj",
         "projectName": "13.HashTable",
-        "projectPath": "C:\\Users\\Bla\\source\\repos\\01.DataStructures\\13.HashTable\\13.HashTable.csproj",
+        "projectPath": "D:\\QA__\\GitProjects\\HashTableHashMap\\13.HashTable.csproj",
         "packagesPath": "C:\\Users\\Bla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bla\\source\\repos\\01.DataStructures\\13.HashTable\\obj\\",
+        "outputPath": "D:\\QA__\\GitProjects\\HashTableHashMap\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bla\\AppData\\Roaming\\NuGet\\NuGet.Config",
